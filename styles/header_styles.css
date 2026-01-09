@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cedarville+Cursive&family=Edu+NSW+ACT+Cursive:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', arial;
+  padding-top:5rem;
+}
+.header-section{
+  display:flex;
+  height:5rem;
+  align-items: center;
+  justify-content:space-between;
+  background-color: #f8f8f8;
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  box-shadow: 0 2px 5px rgba(213, 217, 217, 0.5);
+}
+.header-left-section{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.company-logo{
+  width:4rem;
+  margin-inline:1rem;
+  height:4rem;
+  object-fit: cover;
+  border-radius:50%;
+}
+.header-right-section{
+  display:flex;
+  color:black;
+  gap:3rem;
+  justify-content:center;
+  align-items:center;
+}
+.header-right-section a{
+  color: black;
+  margin-right:1rem;
+}
+.header-right-section a:hover{
+  color: rgb(219, 219, 18);
+}
+.company-first-name{
+  color:#2F353B;
+  font-family:'Cedarville Cursive';
+  font-weight:400;
+  font-size:25px;
+}
+.company-name{
+  color:#2F353B;
+  font-weight:500;
+  font-size:20px;
+}
+.cart-icon{
+  width:2rem;
+  position:relative;
+}
+.cart-link{
+  display:flex;
+  gap:1rem;
+  position:relative;
+  align-items:center;
+  justify-content:center;
+
+}
+.cart-quantity{
+  color: rgb(219, 219, 18);
+  font-size:1rem;
+  font-weight:500;
+  position: absolute;
+  top: -13px;
+  left: 13px;
+}
+.cart-text{
+  font-size:.8rem;
+  font-weight:800;
+  position:absolute;
+  top:30px
+}
+.products-link,
+.contact-link,
+.about-link{
+  font-size:1.1rem;
+  font-weight:400;
+  text-decoration:underline;
+}

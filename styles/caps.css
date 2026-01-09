@@ -1,0 +1,170 @@
+.hero-section{
+  min-height:80vh;
+ /*  background-image: url(/img/joshua-coleman-_yVRLC75Ma8-unsplash.jpg); */
+  background-image: url(/img/onur-bahcivancilar-wh9I0jokix8-unsplash.jpg);
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:2rem;
+}
+.hero-content{
+  font-family: 'Cedarville Cursive';
+  color:white;
+  max-width:600px;
+  text-align: center;
+}
+.hero-content a{
+  text-decoration:underline;
+  color:white;
+  font-size:2rem;
+}
+.hero-content a:hover{
+  
+  color: rgb(240, 136, 4);
+}
+.hero-title{
+  color:rgb(219, 219, 18);
+  font-size:8rem;
+  font-family:Roboto;   
+  text-shadow: 0 4px 10px rgba(0,0,0,0.6);
+}
+.cap{
+  font-family: 'Cedarville Cursive';
+  font-size:10rem;
+  font-weight:800;
+}
+.hero-desc{
+  font-size:2rem;
+  margin-top:1rem;
+  margin-bottom:.5rem;
+  font-weight:700;
+  text-shadow: 0 4px 10px rgba(0,0,0,0.6);
+}
+.product-page-grid{
+  display:grid;
+  /* margin-top:5rem; */
+  grid-template-columns: repeat(5, 1fr);
+}
+.product-container{
+  background-color: #f8f8f8;
+  display:flex;
+  justify-content:center;
+  flex-direction: column;
+  padding:1rem;
+  align-content:center;
+  /* max-width: 15rem; */
+  border-right: 1px solid rgb(231, 231, 231);
+  border-bottom: 1px solid rgb(231, 231, 231);
+}
+.product-image{
+  display:block;
+  max-width:100%;
+  border-radius:1rem;
+}
+.product-image-container{
+  border:none;
+  margin-bottom:1rem;
+  box-shadow: 0 2px 5px rgba(213, 217, 217, 0.5);
+ 
+}
+.product-name{
+  margin-bottom:.5rem;
+  font-weight:500;
+  font-size:1.2rem;
+}
+.product-price{
+  margin-bottom:.5rem;
+  font-weight:800
+}
+select{
+  border-radius:.5rem;
+  padding:.2rem;
+  border:1px solid rgb(143, 135, 135);
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 5px rgba(213, 217, 217, 0.5);
+}
+select:hover,
+.add-to-cart:hover{
+  border:1px solid rgb(219, 219, 18);
+  cursor:pointer;
+  
+}
+.add-to-cart:hover{
+  background-color: rgb(219, 219, 18);
+}
+select:active,
+.add-to-cart:active{
+  border:1px solid rgb(219, 219, 18);
+}
+
+.add-to-cart{
+  width:13rem;
+  padding-top:.5rem;
+  padding-bottom:.5rem;
+  border:none;
+  border-radius:999px;
+  border:1px solid rgb(143, 135, 135);
+  box-shadow: 0 2px 5px rgba(213, 217, 217, 0.5);
+}
+.product{
+  text-align:center;
+  font-weight: 700;
+  font-size:2rem;
+  margin-top: 1rem;
+  margin-bottom:.5rem;
+  font-family:'Roboto';
+}
+form{
+  padding:1rem;
+  display:grid;
+  place-items: center;;
+  gap:1rem;
+  align-items:center;
+  justify-content:center;
+  background-color: #f8f8f8;
+
+}
+
+input{
+  padding:1rem;
+  width:50rem;
+  border:1px solid black;
+  border-radius:1rem;
+  font-size:1rem;
+}
+.submit{
+  padding:.5rem;
+  width:10rem;
+  font-size:1rem;
+  border:1px solid black;
+  border-radius:1rem;
+}
+.contact-us{
+  text-align:center;
+  font-weight: 700;
+  font-size:2rem;
+  margin-top: 1rem;
+  margin-bottom:.5rem;
+  font-family:'Roboto';
+}
+.message{
+  font-size:'Roboto';
+  width:50rem;
+  height:150px;
+  border:1px solid black;
+  border-radius:1rem;
+  font-size:1rem;
+  padding:1rem;
+}
+.message:hover,
+.submit:hover,
+input:hover{
+  border: 1px solid rgb(219, 219, 18)
+}
+.submit:hover{
+  cursor:pointer;
+}
