@@ -62,13 +62,16 @@
 }
 .product-image{
   display:block;
-  max-width:100%;
+  height:100%;
+  width:100%;
+  object-fit: cover;
   border-radius:1rem;
 }
 .product-image-container{
   border:none;
   margin-bottom:1rem;
   box-shadow: 0 2px 5px rgba(213, 217, 217, 0.5);
+  height: 250px;
  
 }
 .product-name{

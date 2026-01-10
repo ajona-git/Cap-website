@@ -107,12 +107,6 @@ const products = [{
   priceCents:'1400',
 },
 {
-  id:'c2ac0495b53193970cd392c9a0497555',
-  image:'../img/c2ac0495b53193970cd392c9a0497555.jpg',
-  name:'Mens Straw Hat',
-  priceCents:'3500',
-},
-{
   id:'a415617218dc5273f8c2260d905cecd0',
   image:'../img/a415617218dc5273f8c2260d905cecd0.jpg',
   name:'NY Baseball Cap',
@@ -123,12 +117,6 @@ const products = [{
   image:'../img/abfa9d4c30214a82d409cc7d05402b07.jpg',
   name:'Plush Winter Hat',
   priceCents:'2500',
-},
-{
-  id:'c6ca4e76105d289e8c76069ab25aca22',
-  image:'../img/c6ca4e76105d289e8c76069ab25aca22.jpg',
-  name:'Fedora hats',
-  priceCents:'3200',
 },
 {
   id:'579968b0d8ae0b2a09c8fcbc18092cce',
