@@ -1,4 +1,4 @@
-const products = [{
+export const products = [{
   id:'00e11d179c66f614d63ca78c96880524',
   image:'../img/00e11d179c66f614d63ca78c96880524.jpg',
   name:`A set of men's beanie hat`,
