@@ -47,7 +47,7 @@ body{
   margin-right:1rem;
 }
 .header-right-section a:hover{
-  color: rgb(219, 219, 18);
+  color: rgb(177, 39, 4);
 }
 .company-first-name{
   color:#2F353B;
@@ -73,7 +73,7 @@ body{
 
 }
 .cart-quantity{
-  color: rgb(219, 219, 18);
+  color: rgb(177, 39, 4);
   font-size:1rem;
   font-weight:500;
   position: absolute;

@@ -27,7 +27,7 @@
   color: rgb(240, 136, 4);
 }
 .hero-title{
-  color:rgb(219, 219, 18);
+  color:rgb(177, 39, 4);
   font-size:8rem;
   font-family:Roboto;   
   text-shadow: 0 4px 10px rgba(0,0,0,0.6);
@@ -92,16 +92,16 @@ select{
 }
 select:hover,
 .add-to-cart:hover{
-  border:1px solid rgb(219, 219, 18);
+  border:1px solid rgb(177, 39, 4);
   cursor:pointer;
   
 }
 .add-to-cart:hover{
-  background-color: rgb(219, 219, 18);
+  background-color: rgb(177, 39, 4);
 }
 select:active,
 .add-to-cart:active{
-  border:1px solid rgb(219, 219, 18);
+  border:1px solid rgb(177, 39, 4);
 }
 
 .add-to-cart{
@@ -166,7 +166,7 @@ input{
 .message:hover,
 .submit:hover,
 input:hover{
-  border: 1px solid rgb(219, 219, 18)
+  border: 1px solid rgb(177, 39, 4)
 }
 .submit:hover{
   cursor:pointer;

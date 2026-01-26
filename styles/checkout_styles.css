@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cedarville+Cursive&family=Edu+NSW+ACT+Cursive:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', arial;
+  padding-top:5rem;
+}
+.header-section{
+  display:flex;
+  height:3rem;
+  align-items: center;
+  justify-content:space-between;
+  background-color: #f8f8f8;
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  box-shadow: 0 2px 5px rgba(213, 217, 217, 0.5);
+}
+.header-left-section{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.company-logo{
+  width:3rem;
+  margin-inline:1rem;
+  height:3rem;
+  object-fit: cover;
+  border-radius:50%;
+}
+
+.header-right-section a{
+  color: black;
+  margin-right:1rem;
+}
+.header-right-section a:hover{
+  color: rgb(219, 219, 18);
+}
+.company-first-name{
+  color:#2F353B;
+  font-family:'Cedarville Cursive';
+  font-weight:400;
+  font-size:20px;
+}
+.company-name{
+  color:#2F353B;
+  font-weight:500;
+  font-size:15px;
+}
+
+.main{
+  max-width:1100px;
+  padding-inline:30px;
+  margin-top:140px;
+  margin-bottom:100px;
+  margin-inline:auto;
+}
+.page-title{
+  font-weight:700;
+  font-size:22px;
+  margin-bottom:18px;
+}
+.checkout-grid{
+  display:grid;
+  grid-template-columns:1fr 350px;
+  column-gap:12px;
+  align-items:start;
+}
+.cart-item-container,
+.payment-summary{
+  border:1px solid rgb(222, 222, 222);
+  padding:18px
+}
+.cart-item-container{
+  margin-bottom:12px;
+}
+.payment-summary{
+  padding-bottom:5px;
+}
+.delivery-date {
+  color: rgb(0, 118, 0);
+  font-weight: 700;
+  font-size: 19px;
+  margin-top: 5px;
+  margin-bottom: 22px;
+}
+.cart-item-details-grid{
+  display:grid;
+  grid-template-columns:100px 1fr 1fr;
+  column-gap:25px;
+}
+.product-image{
+  max-width:100%;
+  max-height:120px;
+  margin-inline:auto;
+}
+.product-name{
+  font-weight:700;
+  margin-bottom:8px;
+}
+.product-price{
+  color: rgb(177, 39, 4);
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.product-quantity .link-primary {
+  margin-left: 3px;
+}
+.delivery-options-title {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.delivery-option {
+  display: grid;
+  grid-template-columns: 24px 1fr;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.delivery-option-input {
+  margin-left: 0px;
+  cursor: pointer;
+}
+
+.delivery-option-date {
+  color: rgb(0, 118, 0);
+  font-weight: 500;
+  margin-bottom: 3px;
+}
+
+.delivery-option-price {
+  color: rgb(120, 120, 120);
+  font-size: 15px;
+}
+.payment-summary-title{
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+.payment-summary-row {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  font-size: 15px;
+  margin-bottom: 9px;
+}
+.payment-summary-money {
+  text-align: right;
+}
+.subtotal-row .payment-summary-money {
+  border-top: 1px solid rgb(222, 222, 222);
+}
+.subtotal-row div {
+  padding-top: 9px;
+}
+
+.total-row {
+  color: rgb(177, 39, 4);
+  font-weight: 700;
+  font-size: 18px;
+
+  border-top: 1px solid rgb(222, 222, 222);
+  padding-top: 18px;
+}
+
+.place-order-button {
+  width: 100%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 8px;
+
+  margin-top: 11px;
+  margin-bottom: 15px;
+}
