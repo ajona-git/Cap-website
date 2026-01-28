@@ -58,7 +58,7 @@ body{
 .main{
   max-width:1100px;
   padding-inline:30px;
-  margin-top:140px;
+  margin-top:80px;
   margin-bottom:100px;
   margin-inline:auto;
 }
@@ -102,6 +102,7 @@ body{
   margin-inline:auto;
 }
 .product-name{
+  font-size:1.2rem;
   font-weight:700;
   margin-bottom:8px;
 }
@@ -113,6 +114,10 @@ body{
 .product-quantity .link-primary {
   margin-left: 3px;
 }
+.link-primary {
+  color: rgb(1, 124, 182);
+  cursor: pointer;
+}
 .delivery-options-title {
   font-weight: 700;
   margin-bottom: 10px;
@@ -120,7 +125,8 @@ body{
 
 .delivery-option {
   display: grid;
-  grid-template-columns: 24px 1fr;
+  grid-template-columns: 25px 1fr;
+  column-gap:10px;
   margin-bottom: 12px;
   cursor: pointer;
 }
@@ -133,7 +139,7 @@ body{
 .delivery-option-date {
   color: rgb(0, 118, 0);
   font-weight: 500;
-  margin-bottom: 3px;
+  margin-bottom: 5px;
 }
 
 .delivery-option-price {
