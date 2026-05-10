@@ -1,3 +1,13 @@
+export function getProduct(productId){
+let matchingProduct;
+
+    products.forEach((product)=>{
+      if(product.id === productId){
+        matchingProduct=product
+      };
+    });
+    return matchingProduct;
+}
 export const products = [{
   id:'00e11d179c66f614d63ca78c96880524',
   image:'../img/00e11d179c66f614d63ca78c96880524.jpg',
