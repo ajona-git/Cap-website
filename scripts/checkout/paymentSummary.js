@@ -28,27 +28,27 @@ export function renderPaymentSummary(){
 
       <div class="payment-summary-row">
         <div>Items (3):</div>
-        <div class="payment-summary-money">NGN ${productPriceCents}</div>
+        <div class="payment-summary-money">NGN ${productPriceCents.toLocaleString()}</div>
       </div>
 
       <div class="payment-summary-row">
         <div>Shipping &amp; handling:</div>
-        <div class="payment-summary-money">NGN ${shippingPriceCents}</div>
+        <div class="payment-summary-money">NGN ${shippingPriceCents.toLocaleString()}</div>
       </div>
 
       <div class="payment-summary-row subtotal-row">
         <div>Total before tax:</div>
-        <div class="payment-summary-money">NGN ${totalCentsBeforeTax}</div>
+        <div class="payment-summary-money">NGN ${totalCentsBeforeTax.toLocaleString()}</div>
       </div>
 
       <div class="payment-summary-row">
         <div>Estimated tax (10%):</div>
-        <div class="payment-summary-money">${taxCents}</div>
+        <div class="payment-summary-money">NGN ${taxCents.toLocaleString()}</div>
       </div>
 
       <div class="payment-summary-row total-row">
         <div>Order total:</div>
-        <div class="payment-summary-money">NGN ${totalCents}</div>
+        <div class="payment-summary-money">NGN ${totalCents.toLocaleString()}</div>
       </div>
 
       <button class="place-order-button button-primary">
