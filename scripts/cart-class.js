@@ -1,14 +1,14 @@
 class Cart {
   cartItems;
-  localStorageKey;
+  #localStorageKey; // this is a private property, it can only be accessed within the class
 
   constructor(localStorageKey){
-  this.localStorageKey = localStorageKey;
-  this.loadFromLocalStorage();
+  this.#localStorageKey = localStorageKey;
+  this.#loadFromLocalStorage();
   }
 
-  loadFromLocalStorage(){
-  this.cartItems =JSON.parse(localStorage.getItem(this.localStorageKey));
+  #loadFromLocalStorage(){
+  this.cartItems =JSON.parse(localStorage.getItem(this.#localStorageKey));
 
   if(!this.cartItems){
     this.cartItems=
@@ -29,7 +29,7 @@ class Cart {
   };
 
   saveToLocalStorage(){
-    localStorage.setItem(this.localStorageKey, JSON.stringify(this.cartItems));
+    localStorage.setItem(this.#localStorageKey, JSON.stringify(this.cartItems));
   };
 
   addToCart(productId){
@@ -85,6 +85,7 @@ const groceries = new Cart('cart-groceries')
 
 businessCart.addToCart('00e11d179c66f614d63ca78c96880524');
 schoolCart.addToCart('6c001568865e1bcf6f367aa82178c7bd');
+
 
 
 console.log(cart);
