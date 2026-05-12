@@ -8,6 +8,26 @@ let matchingProduct;
     });
     return matchingProduct;
 }
+class Product {
+
+  
+  id;
+  image;
+  name;
+  priceCents;
+
+  constructor(productDetails){
+    this.id = productDetails.id; 
+    this.image = productDetails.image;
+    this.name = productDetails.name;
+    this.priceCents = productDetails.priceCents; 
+  };
+
+  getPrice(){
+    return `${this.priceCents}`;
+  }
+}
+
 export const products = [{
   id:'00e11d179c66f614d63ca78c96880524',
   image:'../img/00e11d179c66f614d63ca78c96880524.jpg',
@@ -133,4 +153,7 @@ export const products = [{
   image:'../img/579968b0d8ae0b2a09c8fcbc18092cce.jpg',
   name:'Cat in a Hat',
   priceCents:'10000000000',
-},]
+},].map((productDetails) => {
+  return new Product(productDetails);
+});
+ 

@@ -34,7 +34,7 @@ export function renderOrderSummary(){
             ${matchingProduct.name}
           </div>
           <div class="product-price">
-            NGN ${matchingProduct.priceCents}
+            NGN ${matchingProduct.getPrice()}
           </div>
           <div class="product-quantity">
             <span>

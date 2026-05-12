@@ -7,7 +7,7 @@ products.forEach((product)=>{
       <div class="product-container">
       <div class="product-image-container"><img src=${product.image} alt="" class="product-image"></div>
       <div class="product-name">${product.name}</div>
-      <div class="product-price">NGN ${product.priceCents}</div>
+      <div class="product-price">NGN ${product.getPrice()}</div>
             <div class="product-quantity-container">
         <select>
           <option selected value="1">1</option>
