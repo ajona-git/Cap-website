@@ -28,11 +28,22 @@ class Product {
   }
 }
 
+class Clothing extends Product {
+  sizeChartLink;
+
+  constructor(productDetails){
+    super(productDetails);
+    this.sizeChartLink = productDetails.sizeChartLink;
+    
+  }
+}
+
+
 export const products = [{
   id:'00e11d179c66f614d63ca78c96880524',
   image:'../img/00e11d179c66f614d63ca78c96880524.jpg',
   name:`A set of men's beanie hat`,
-  priceCents:'2500',
+  priceCents:'2500', 
 },
 {
   id:'0b1dce7dbe024a4ebf1f472ec06faa3a',
